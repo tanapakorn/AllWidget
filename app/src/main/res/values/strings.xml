@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">AllWidget</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_radio">RadioActivity</string>
+    <string name="title_activity_image">ImageActivity</string>
+    <string name="title_activity_horizontal">HorizontalActivity</string>
+    <string name="title_activity_progress">ProgressActivity</string>
+    <string name="title_activity_photo">PhotoActivity</string>
+    <string name="title_activity_toast">ToastActivity</string>
+    <string name="title_activity_first">ActivityActivity</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="title_activity_dialog">DialogActivity</string>
+    <string name="title_activity_notification">NotificationActivity</string>
+    <string name="title_activity_actionbar">ActionbarActivity</string>
+</resources>
