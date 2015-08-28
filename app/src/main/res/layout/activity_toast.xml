@@ -4,63 +4,70 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    android:background="#ffff779f"
+    android:background="@color/bg_pink_hard"
     tools:context="com.family.allinone.ToastActivity">
 
-    <TextView android:text="Toast" android:layout_width="wrap_content"
+    <TextView android:text="@string/toast_text_view1" android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
+        android:textSize="@dimen/text_normal"
+        android:textColor="@color/btn_white_pure"
         android:id="@+id/textToast" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Short Toast"
+        android:text="@string/toast_text_btn1"
         android:id="@+id/shortToastBtn"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:textAllCaps="false"
-        android:background="#ffffffff"
-        android:textColor="#ffff779f"
-        android:textSize="20sp" />
+        android:background="@color/btn_white_pure"
+        android:textColor="@color/bg_pink_hard"
+        android:textSize="@dimen/text_normal"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Long Toast"
+        android:text="@string/toast_text_btn2"
         android:id="@+id/longToastBtn"
         android:layout_centerHorizontal="true"
         android:textAllCaps="false"
-        android:background="#ffffffff"
-        android:textColor="#ffff779f"
-        android:textSize="20sp"
-        android:layout_below="@id/shortToastBtn"
-        android:layout_marginTop="10dp"/>
+        android:background="@color/btn_white_pure"
+        android:textColor="@color/bg_pink_hard"
+        android:textSize="@dimen/text_normal"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/shortToastBtn"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="CustomTimer Toast"
+        android:text="@string/toast_text_btn3"
         android:id="@+id/longerToastBtn"
         android:layout_centerHorizontal="true"
         android:textAllCaps="false"
-        android:background="#ffffffff"
-        android:textColor="#ffff779f"
-        android:textSize="20sp"
-        android:layout_below="@id/longToastBtn"
-        android:layout_marginTop="10dp"/>
+        android:background="@color/btn_white_pure"
+        android:textColor="@color/bg_pink_hard"
+        android:textSize="@dimen/text_normal"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/longToastBtn"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="CustomXML Toast"
+        android:text="@string/toast_text_btn4"
         android:id="@+id/xmlToastBtn"
         android:layout_centerHorizontal="true"
         android:textAllCaps="false"
-        android:background="#ffffffff"
-        android:textColor="#ffff779f"
-        android:textSize="20sp"
-        android:layout_below="@id/longerToastBtn"
-        android:layout_marginTop="10dp" />
+        android:background="@color/btn_white_pure"
+        android:textColor="@color/bg_pink_hard"
+        android:textSize="@dimen/text_normal"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/longerToastBtn" />
 
 </RelativeLayout>

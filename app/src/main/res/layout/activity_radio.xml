@@ -4,7 +4,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
-    android:background="#ffff779f"
+    android:background="@color/bg_pink_hard"
     android:id="@+id/relativeLayout"
     android:orientation="vertical"
     android:weightSum="1">
@@ -12,18 +12,16 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:text="Sample"
+        android:text="@string/radio_text_view1"
         android:id="@+id/sampleText"
         android:textSize="60sp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
         android:layout_marginBottom="50dp" />
 
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="350dp"
+        android:layout_height="0dp"
         android:layout_weight="0.5"
         android:weightSum="3">
 
@@ -36,11 +34,11 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Gravity"
+                android:text="@string/radio_text_view2"
                 android:id="@+id/textView2"
                 android:gravity="center"
                 android:layout_marginBottom="10dp"
-                android:textSize="30sp"
+                android:textSize="@dimen/text_normal"
                 android:textStyle="bold"/>
         <RadioGroup
             android:layout_width="match_parent"
@@ -49,31 +47,31 @@
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Left"
+                android:text="@string/radio_text_radio1"
                 android:id="@+id/gravityLeft"
                 android:layout_gravity="center_horizontal"
                 android:checked="true"
-                android:textSize="20sp"
+                android:textSize="@dimen/text_small"
                 android:layout_marginBottom="10dp"/>
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Center"
+                android:text="@string/radio_text_radio2"
                 android:id="@+id/gravityCenter"
                 android:layout_gravity="center_horizontal"
                 android:checked="false"
-                android:textSize="20sp"
+                android:textSize="@dimen/text_small"
                 android:layout_marginBottom="10dp"/>
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Right"
+                android:text="@string/radio_text_radio3"
                 android:id="@+id/gravityRight"
                 android:layout_gravity="center_horizontal"
                 android:checked="false"
-                android:textSize="20sp"
+                android:textSize="@dimen/text_small"
                 android:layout_marginBottom="10dp"/>
         </RadioGroup>
         </LinearLayout>
@@ -87,11 +85,11 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Size"
+                android:text="@string/radio_text_view3"
                 android:id="@+id/textView3"
                 android:gravity="center"
                 android:layout_marginBottom="10dp"
-                android:textSize="30sp"
+                android:textSize="@dimen/text_normal"
                 android:textStyle="bold"/>
 
             <RadioGroup
@@ -102,31 +100,31 @@
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Small"
+                    android:text="@string/radio_text_radio4"
                     android:id="@+id/sizeSmall"
                     android:layout_gravity="center_horizontal"
                     android:checked="false"
-                    android:textSize="20sp"
+                    android:textSize="@dimen/text_small"
                     android:layout_marginBottom="10dp" />
 
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Mediun"
+                    android:text="@string/radio_text_radio5"
                     android:id="@+id/sizeMedium"
                     android:layout_gravity="center_horizontal"
                     android:checked="false"
-                    android:textSize="20sp"
+                    android:textSize="@dimen/text_small"
                     android:layout_marginBottom="10dp" />
 
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Big"
+                    android:text="@string/radio_text_radio6"
                     android:id="@+id/sizeBig"
                     android:layout_gravity="center_horizontal"
                     android:checked="true"
-                    android:textSize="20sp"
+                    android:textSize="@dimen/text_small"
                     android:layout_marginBottom="10dp" />
             </RadioGroup>
         </LinearLayout>
@@ -140,11 +138,11 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Style"
+                android:text="@string/radio_text_view4"
                 android:id="@+id/textView4"
                 android:gravity="center"
                 android:layout_marginBottom="10dp"
-                android:textSize="30sp"
+                android:textSize="@dimen/text_normal"
                 android:textStyle="bold"/>
 
             <RadioGroup
@@ -155,31 +153,31 @@
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Normal"
+                    android:text="@string/radio_text_radio7"
                     android:id="@+id/styleNormal"
                     android:layout_gravity="center_horizontal"
                     android:checked="true"
-                    android:textSize="20sp"
+                    android:textSize="@dimen/text_small"
                     android:layout_marginBottom="10dp" />
 
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Bold"
+                    android:text="@string/radio_text_radio8"
                     android:id="@+id/styleBold"
                     android:layout_gravity="center_horizontal"
                     android:checked="false"
-                    android:textSize="20sp"
+                    android:textSize="@dimen/text_small"
                     android:layout_marginBottom="10dp" />
 
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Italic"
+                    android:text="@string/radio_text_radio9"
                     android:id="@+id/styleItalic"
                     android:layout_gravity="center_horizontal"
                     android:checked="false"
-                    android:textSize="20sp"
+                    android:textSize="@dimen/text_small"
                     android:layout_marginBottom="10dp" />
             </RadioGroup>
         </LinearLayout>
@@ -189,9 +187,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/editText2"
-        android:text="RadioButton"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:textSize="20sp"
+        android:text="@string/radio_text_view5"
+        android:textSize="@dimen/text_normal"
         android:layout_gravity="center_horizontal" />
 </LinearLayout>

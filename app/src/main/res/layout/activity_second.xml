@@ -5,61 +5,62 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="com.family.allinone.SecondActivity"
-    android:background="#ffffc7c9"
+    android:background="@color/bg_pink_soft"
     android:gravity="center_horizontal">
 
-    <TextView android:text="This is Second Activity"
+    <TextView android:text="@string/second_text_view1"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:textColor="#ff404040"
-        android:textSize="30sp"
+        android:textColor="@color/bg_pink_hard"
+        android:textSize="@dimen/text_normal"
         android:gravity="center"
         android:id="@+id/textView10"
-        android:background="#ffffffff"
+        android:background="@color/btn_white_pure"
         android:padding="10dp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Name : "
-        android:textColor="#ff404040"
+        android:text="@string/second_text_view2"
+        android:textColor="@color/bg_pink_hard"
         android:id="@+id/getNameData"
-        android:textSize="20sp"
+        android:textSize="@dimen/text_normal"
         android:layout_below="@+id/textView10"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
-        android:background="#ffffffff"
+        android:background="@color/btn_white_pure"
         android:padding="10dp"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tel.  "
-        android:textColor="#ff404040"
+        android:text="@string/second_text_view3"
+        android:textColor="@color/bg_pink_hard"
         android:id="@+id/getPhoneData"
-        android:textSize="20sp"
+        android:textSize="@dimen/text_normal"
         android:layout_below="@+id/getNameData"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
-        android:background="#ffffffff"
+        android:background="@color/btn_white_pure"
         android:padding="10dp"/>
 
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Get Data From Object"
+        android:text="@string/second_text_btn2"
         android:id="@+id/getObjectData"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:background="#ffffffff"
-        android:textColor="#ff404040"/>
+        android:layout_marginBottom="5dp" android:layout_marginTop="5dp"
+        android:background="@color/btn_white_pure"
+        android:textColor="@color/bg_pink_hard"/>
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Send back Data"
+        android:text="@string/second_text_btn1"
         android:id="@+id/sendBackData"
         android:layout_above="@+id/getObjectData"
-        android:background="#ffffffff"
-        android:textColor="#ff404040"
-        android:layout_marginBottom="10dp"/>
+        android:background="@color/btn_white_pure"
+        android:textColor="@color/bg_pink_hard"
+        android:layout_marginBottom="5dp" android:layout_marginTop="5dp"/>
 
 </RelativeLayout>

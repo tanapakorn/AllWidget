@@ -4,40 +4,42 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
-    android:background="#ffff779f"
+    android:background="@color/bg_pink_hard"
     android:id="@+id/relativeLayout">
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Start"
+        android:text="@string/main_text_btn1"
         android:id="@+id/startBtn"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:textSize="20sp"
-        android:background="#ffffffff"
-        android:textColor="#ffff99b3" />
+        android:textSize="@dimen/text_normal"
+        android:background="@color/btn_white_pure"
+        android:padding="10dp"
+        android:textColor="@color/bg_pink_hard" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="All In One"
+        android:text="@string/main_text_view1"
         android:id="@+id/allWidgetsText"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="114dp"
-        android:textSize="60sp"
+        android:textSize="@dimen/text_big"
         android:gravity="center_horizontal"
-        android:textColor="#fff8ffe7" />
+        android:textColor="@color/btn_white_pure" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Mr.Tanapakorn Laopiam\n\ntanapakorn.laop@gmail.com\nTel. 090-916-3436"
+        android:text="@string/main_text_view2"
+        android:textColor="@color/btn_white_pure"
         android:id="@+id/textView7"
-        android:gravity="right"
-        android:textSize="15sp"
+        android:gravity="end"
+        android:textSize="@dimen/text_small"
         android:layout_below="@+id/allWidgetsText"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />

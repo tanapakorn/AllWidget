@@ -4,10 +4,9 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    android:background="#ffff779f"
+    android:background="@color/bg_pink_hard"
     android:orientation="vertical"
-    tools:context="com.family.allinone.ActivityActivity"
-    android:weightSum="1">
+    tools:context="com.family.allinone.ActivityActivity">
 
     <TableRow
         android:layout_width="match_parent"
@@ -19,23 +18,24 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="Name."
+            android:text="@string/first_text_view1"
             android:id="@+id/textView8"
             android:gravity="center_vertical"
-            android:background="#ffffffff"
-            android:textColor="#ffff779f"
-            android:textSize="20sp"
-            android:layout_margin="5dp" />
+            android:background="@color/btn_white_pure"
+            android:textColor="@color/bg_pink_hard"
+            android:textSize="@dimen/text_normal"
+            android:layout_margin="5dp"
+            android:padding="5dp"/>
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/editName"
-            android:hint="Type the Name here."
+            android:hint="@string/first_text_edit1"
             android:inputType="textPersonName"
             android:gravity="end"
-            android:textColor="#ffffffff"
-            android:textColorHint="#ffffffff" />
+            android:textColor="@color/btn_white_pure"
+            android:textColorHint="@color/btn_white_pure" />
     </TableRow>
 
     <TableRow
@@ -48,70 +48,74 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="Tel."
+            android:text="@string/first_text_view2"
             android:id="@+id/textView9"
             android:gravity="center_vertical"
-            android:background="#ffffffff"
-            android:textColor="#ffff779f"
-            android:textSize="20sp"
-            android:layout_margin="5dp" />
+            android:background="@color/btn_white_pure"
+            android:textColor="@color/bg_pink_hard"
+            android:textSize="@dimen/text_normal"
+            android:layout_margin="5dp"
+            android:padding="5dp"/>
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/editTel"
-            android:hint="Tel. Number"
+            android:hint="@string/first_text_edit2"
             android:inputType="phone"
             android:gravity="end"
-            android:textColor="#ffffffff"
-            android:textColorHint="#ffffffff" />
+            android:textColor="@color/btn_white_pure"
+            android:textColorHint="@color/btn_white_pure" />
     </TableRow>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Send Data to Second Activity"
+        android:text="@string/first_text_btn1"
         android:id="@+id/sendDataBtn"
         android:textAllCaps="false"
-        android:background="#ffffffff"
-        android:textColor="#ffff779f"
-        android:textSize="20sp" />
+        android:background="@color/btn_white_pure"
+        android:textColor="@color/bg_pink_hard"
+        android:textSize="@dimen/text_normal"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Send Data as Bundle"
+        android:text="@string/first_text_btn2"
         android:id="@+id/sendAsBundleBtn"
         android:textAllCaps="false"
-        android:background="#ffffffff"
-        android:textColor="#ffff779f"
-        android:textSize="20sp"
-        android:layout_marginTop="10dp"/>
+        android:background="@color/btn_white_pure"
+        android:textColor="@color/bg_pink_hard"
+        android:textSize="@dimen/text_normal"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Send Object to Second Activity"
+        android:text="@string/first_text_btn3"
         android:id="@+id/sendObjBtn"
         android:textAllCaps="false"
-        android:background="#ffffffff"
-        android:textColor="#ffff779f"
-        android:textSize="20sp"
-        android:layout_marginTop="10dp"/>
+        android:background="@color/btn_white_pure"
+        android:textColor="@color/bg_pink_hard"
+        android:textSize="@dimen/text_normal"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Request for Result"
+        android:text="@string/first_text_btn4"
         android:id="@+id/requestBtn"
         android:textAllCaps="false"
-        android:background="#ffffffff"
-        android:textColor="#ffff779f"
-        android:textSize="20sp"
-        android:layout_marginTop="10dp"/>
+        android:background="@color/btn_white_pure"
+        android:textColor="@color/bg_pink_hard"
+        android:textSize="@dimen/text_normal"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"/>
 
 
-    <TextView android:text="Activity" android:layout_width="wrap_content"
+    <TextView android:text="@string/first_text_view3" android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
         android:id="@+id/activityText" />
 
 

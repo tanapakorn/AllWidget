@@ -18,7 +18,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/editName"
         android:layout_gravity="center_horizontal"
-        android:hint="username"
+        android:hint="@string/layout_dialog_text_edit1"
         android:inputType="textEmailAddress"
         android:textColor="#010101"
         android:textColorHint="#000000"
@@ -28,7 +28,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/editPass"
         android:layout_gravity="center_horizontal"
-        android:hint="password"
+        android:hint="@string/layout_dialog_text_edit2"
         android:inputType="textPassword"
         android:textColor="#010101"
         android:textColorHint="#000000"
@@ -37,9 +37,9 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="**username: admin **\n**password: 1234 **"
+        android:text="@string/layout_dialog_text_view1"
         android:textColor="#010101"
         android:id="@+id/textView11"
         android:layout_margin="5dp"
-        android:textSize="8sp"/>
+        android:textSize="12sp" />
 </LinearLayout>

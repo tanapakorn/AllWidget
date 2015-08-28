@@ -15,4 +15,72 @@
     <string name="title_activity_dialog">DialogActivity</string>
     <string name="title_activity_notification">NotificationActivity</string>
     <string name="title_activity_actionbar">ActionbarActivity</string>
+
+    <string name="dialog_text_btn1">Show Dialog</string>
+    <string name="dialog_text_btn2">Show Choice List Dialog</string>
+    <string name="dialog_text_btn3">Show Single-Choice List Dialog</string>
+    <string name="dialog_text_btn4">Show Multi-Choice List Dialog</string>
+    <string name="dialog_text_btn5">Show Custom Dialog</string>
+
+    <string name="main_text_btn1">Start</string>
+    <string name="main_text_view1">All In One</string>
+    <string name="main_text_view2">Mr.Tanapakorn Laopiam\n\ntanapakorn.laop@gmail.com\nTel. 09&#8211;916&#8211;3436</string>
+
+    <string name="actionbar_text_btn1">Hold me!!</string>
+    <string name="actionbar_text_view1">Hello</string>
+
+    <string name="first_text_view1">Name.</string>
+    <string name="first_text_edit1">Type the Name here.</string>
+    <string name="first_text_view2">Tel.</string>
+    <string name="first_text_edit2">Tel. Number</string>
+    <string name="first_text_btn1">Send Data to Second Activity</string>
+    <string name="first_text_view3">Activity</string>
+    <string name="first_text_btn2">Send Data as Bundle</string>
+    <string name="first_text_btn3">Send Object to Second Activity</string>
+    <string name="first_text_btn4">Request for Result</string>
+
+    <string name="second_text_view1">This is Second Activity</string>
+    <string name="second_text_view2">Name :</string>
+    <string name="second_text_view3">Tel.</string>
+    <string name="second_text_btn2">Get Data From Object</string>
+    <string name="second_text_btn1">Send back Data</string>
+
+    <string name="horizontal_text_view1">HorizontalScrollView (Normal)</string>
+    <string name="horizontal_text_view2">HorizontalScrollView ( With Snap )</string>
+
+    <string name="notification_text_btn1">Notify User</string>
+    <string name="notification_text_btn2">Notify with Progress</string>
+    <string name="notification_text_view1">Notification</string>
+
+    <string name="photo_text_view1">TakingPhotos</string>
+    <string name="photo_text_btn1">Take a Photo</string>
+
+    <string name="progress_text_btn1">Load Activity</string>
+    <string name="progress_text_btn2">Run Progress</string>
+    <string name="progress_text_btn3">Progress Dialog</string>
+
+    <string name="radio_text_view1">Sample</string>
+    <string name="radio_text_view2">Gravity</string>
+    <string name="radio_text_radio1">Left</string>
+    <string name="radio_text_radio2">Center</string>
+    <string name="radio_text_radio3">Right</string>
+    <string name="radio_text_view3">Size</string>
+    <string name="radio_text_radio4">Small</string>
+    <string name="radio_text_radio5">Mediun</string>
+    <string name="radio_text_radio6">Big</string>
+    <string name="radio_text_view4">Style</string>
+    <string name="radio_text_radio7">Normal</string>
+    <string name="radio_text_radio8">Bold</string>
+    <string name="radio_text_radio9">Italic</string>
+    <string name="radio_text_view5">RadioButton</string>
+
+    <string name="toast_text_view1">Toast</string>
+    <string name="toast_text_btn1">Short Toast</string>
+    <string name="toast_text_btn2">Long Toast</string>
+    <string name="toast_text_btn3">CustomTimer Toast</string>
+    <string name="toast_text_btn4">CustomXML Toast</string>
+    <string name="layout_dialog_text_edit1">username</string>
+    <string name="layout_dialog_text_edit2">password</string>
+    <string name="layout_dialog_text_view1">**username: admin **\n**password: 1234 **</string>
+
 </resources>

@@ -1,8 +1,14 @@
 package com.family.allinone;
 
+import android.annotation.TargetApi;
 import android.app.Activity;
 import android.content.Intent;
+import android.content.res.ColorStateList;
 import android.graphics.Color;
+import android.graphics.drawable.BitmapDrawable;
+import android.graphics.drawable.Drawable;
+import android.os.Build;
+import android.provider.CalendarContract;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -31,8 +37,8 @@ public class MenuActivity extends Activity implements View.OnClickListener {
         for(String i : buttonName){
             final Button button = new Button(this);
             button.setText(i);
-            button.setBackgroundColor(Color.parseColor("#ffffffff"));
-            button.setTextColor(Color.parseColor("#ffff99b3"));
+            button.setBackgroundResource(R.color.btn_white_pure);
+            button.setTextColor(Color.parseColor("#ffff779f"));
             button.setWidth(scrollLayout.getWidth());
             button.setTextSize(20);
             button.setAllCaps(false);
